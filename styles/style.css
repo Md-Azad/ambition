@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* google fonts css here */
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900 */
+
+.font-primary {
+  font-family: "Azeret Mono", monospace;
+  font-weight: 800;
+}
+
+body {
+  max-width: 1440px;
+}
+
+/* navbar styles here  */
+
+.navbar {
+  display: flex;
+  padding: 40px 150px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 28px;
+}
+
+.download-btn {
+  background-color: aliceblue;
+  padding: 17px 24px;
+  border-radius: 8px;
+  opacity: 0.8;
+}
+
+/* navbar styles ends  here  */
