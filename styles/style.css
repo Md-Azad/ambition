@@ -13,6 +13,13 @@
   font-weight: 800;
 }
 
+.description{
+  color: rgb(89, 94, 105);
+  opacity: 0.7;
+  font-size: 14px;
+  padding: 20px 0;
+}
+
 body {
   max-width: 1440px;
 }
@@ -21,7 +28,7 @@ body {
 
 .navbar {
   display: flex;
-  padding: 40px 150px;
+  padding: 30px 150px;
   justify-content: space-between;
   align-items: center;
 }
@@ -38,3 +45,41 @@ body {
 }
 
 /* navbar styles ends  here  */
+
+/* hero section styles are here */
+
+.hero {
+  background-image: url("../assets/Hero-bg.png");
+  
+}
+
+.hero-img {
+  text-align: center;
+  padding: 24px 0;
+}
+
+.hero-contant {
+  max-width: 1000px;
+  margin: 0 auto;
+
+}
+.hero-info {
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 36px;
+  margin: 280px 1px;
+}
+
+.contact-btn{
+  background-color: black;
+  color:white;
+  padding: 17px 24px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+
