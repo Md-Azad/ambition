@@ -176,7 +176,7 @@ body {
 /* My Current Target styles end here */
 
 
-/* footer styles are here */
+/* support section styles are here */
 #support{
   scroll-behavior: smooth;
   
@@ -216,3 +216,26 @@ body {
 .suppost-text-color{
   color:white;
 }
+/* support section styles end here */
+/* footer section styles are here */
+.footer{
+ 
+  max-width: 1164px;
+  margin: 20px auto;
+}
+.footer-position{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+  footer h1{
+    font-size: 20px;
+    font-weight: 600;
+   
+  }
+  
+  .icons a{
+    margin-right: 4px;
+  }
+/* footer section styles end here */
