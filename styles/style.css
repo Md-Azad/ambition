@@ -137,3 +137,40 @@ body {
   border-radius:16px;
 }
 /* my inspiration section ends here */
+
+/* My Current Target styles are here */
+
+.cards-section {
+  display: flex;
+  gap: 10px;
+}
+.card{
+  padding: 40px;
+  max-width: 284px ;
+  border-radius: 16px;
+}
+.card-title{
+  font-size: 24px;
+  font-weight: 800;
+}
+.card a{
+  text-decoration: underline;
+  color: black;
+  font-weight: 700;
+}
+.card-info h1, p, a{
+  margin-top: 10px;
+}
+.card p{
+  text-align: start;
+}
+.card-html{
+  background-color: rgba(255, 76, 30, 0.05);
+}
+.card-css{
+  background-color: rgba(0, 76, 232, 0.05);
+}
+.card-js{
+  background-color:  rgba(255, 223, 0, 0.05);
+}
+/* My Current Target styles end here */
