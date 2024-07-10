@@ -18,13 +18,17 @@
   opacity: 0.7;
   font-size: 14px;
   padding: 20px 0;
+  text-align: center;
+}
+.text-center {
+  text-align: center;
 }
 
 .title {
   font-size: 32px;
   text-align: center;
 }
-.why-contant-title{
+.why-contant-title {
   font-size: 24px;
   font-weight: 700px;
 }
@@ -93,34 +97,43 @@ body {
 
 /* why-section starts here */
 
-.why-section {
+.main-section {
   max-width: 1040px;
   padding: 20px 97px;
   margin: 40px auto;
   background: rgba(13, 19, 33, 0.02);
-  
 }
 .why-title-section {
   text-align: center;
- 
-
 }
-.why-container{
+.why-container {
   display: flex;
-  flex-direction:column;
-  align-items: center
+  flex-direction: column;
+  align-items: center;
 }
 
-.why-position{
+.why-position {
   display: flex;
   gap: 50px;
   margin: 50px 20px;
 }
 
-.why-btn{
+.why-btn {
   padding: 12px 20px;
   border: 1px solid rgb(13, 19, 33);
   opacity: 0.7;
   margin: 20px 0;
 }
 /* why-section ends here */
+
+/* my inspiration section stats here */
+
+.video-section {
+  margin-top: 30px;
+}
+.video-style{
+  width:100%;
+  height:550px;
+  border-radius:16px;
+}
+/* my inspiration section ends here */
