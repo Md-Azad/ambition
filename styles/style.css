@@ -174,3 +174,45 @@ body {
   background-color:  rgba(255, 223, 0, 0.05);
 }
 /* My Current Target styles end here */
+
+
+/* footer styles are here */
+#support{
+  scroll-behavior: smooth;
+  
+}
+.support-img{
+  padding:  48px 64px 48px;
+  background: 
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), 
+    url("../assets/handshake.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: overlay;
+
+}
+
+.input-section{
+  margin-top: 30px;
+}
+
+.input-section input[type="text"] {
+  width: 348px;
+  padding: 19px 20px;
+  margin: 0px 16px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(13, 19, 33,0.15);
+  border-radius: 8px;
+}
+
+.input-section input[type="submit"] {
+
+  width: 120px;
+  padding: 17px 20px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  border: none;
+}
+.suppost-text-color{
+  color:white;
+}
