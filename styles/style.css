@@ -13,11 +13,20 @@
   font-weight: 800;
 }
 
-.description{
+.description {
   color: rgb(89, 94, 105);
   opacity: 0.7;
   font-size: 14px;
   padding: 20px 0;
+}
+
+.title {
+  font-size: 32px;
+  text-align: center;
+}
+.why-contant-title{
+  font-size: 24px;
+  font-weight: 700px;
 }
 
 body {
@@ -50,7 +59,6 @@ body {
 
 .hero {
   background-image: url("../assets/Hero-bg.png");
-  
 }
 
 .hero-img {
@@ -61,7 +69,6 @@ body {
 .hero-contant {
   max-width: 1000px;
   margin: 0 auto;
-
 }
 .hero-info {
   text-align: center;
@@ -72,9 +79,9 @@ body {
   margin: 280px 1px;
 }
 
-.contact-btn{
+.contact-btn {
   background-color: black;
-  color:white;
+  color: white;
   padding: 17px 24px;
   border-radius: 8px;
   font-size: 20px;
@@ -82,4 +89,38 @@ body {
   margin-bottom: 30px;
 }
 
+/* hero section styles ends here */
 
+/* why-section starts here */
+
+.why-section {
+  max-width: 1040px;
+  padding: 20px 97px;
+  margin: 40px auto;
+  background: rgba(13, 19, 33, 0.02);
+  
+}
+.why-title-section {
+  text-align: center;
+ 
+
+}
+.why-container{
+  display: flex;
+  flex-direction:column;
+  align-items: center
+}
+
+.why-position{
+  display: flex;
+  gap: 50px;
+  margin: 50px 20px;
+}
+
+.why-btn{
+  padding: 12px 20px;
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+  margin: 20px 0;
+}
+/* why-section ends here */
